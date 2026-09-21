@@ -30,7 +30,7 @@ You need Julia (already installed) and an Anthropic API key.
 **a) Install the package.** Open PowerShell and run:
 
 ```powershell
-cd "C:\Users\OSAMA BIN ELI\OneDrive\Desktop\RunToSolve\SteelDataInitiative\DataExtractor.jl"
+cd "C:\Users\ELIKEM.ANYOMI\OneDrive\Desktop\RunToSolve\SteelDataInitiative\DataExtractor.jl"
 julia --project=. -e "using Pkg; Pkg.instantiate()"
 ```
 
@@ -55,7 +55,7 @@ Poppler for reading PDFs). No separate Poppler install is required.
 Always start Julia from the package folder with `--project=.` so it finds its libraries:
 
 ```powershell
-cd "C:\Users\OSAMA BIN ELI\OneDrive\Desktop\RunToSolve\SteelDataInitiative\DataExtractor.jl"
+cd "C:\Users\ELIKEM.ANYOMI\OneDrive\Desktop\RunToSolve\SteelDataInitiative\DataExtractor.jl"
 julia --project=.
 ```
 
@@ -68,7 +68,7 @@ using DataExtractor
 ### A whole folder (the normal case)
 
 ```julia
-extract_papers("C:/Users/OSAMA BIN ELI/OneDrive/Desktop/RunToSolve/SteelDataInitiative/test_pdfs_sorted")
+extract_papers("C:/Users/ELIKEM.ANYOMI/OneDrive/Desktop/RunToSolve/SteelDataInitiative/test_pdfs_sorted")
 ```
 
 - Give it **PDFTopicSorter's output folder** (the one with `index.csv`) and it reuses the
@@ -232,7 +232,7 @@ extract_papers("C:/path/to/pdfs"; effort="medium")
 Offline tests (no API key, no cost) run with:
 
 ```powershell
-cd "C:\Users\OSAMA BIN ELI\OneDrive\Desktop\RunToSolve\SteelDataInitiative\DataExtractor.jl"
+cd "C:\Users\ELIKEM.ANYOMI\OneDrive\Desktop\RunToSolve\SteelDataInitiative\DataExtractor.jl"
 julia --project=. -e "using Pkg; Pkg.test()"
 ```
 
