@@ -1,0 +1,55 @@
+{
+  "first_author_last_name": "Cain",
+  "author_citation": "Cain, D.E.",
+  "year": "1995",
+  "tables": [
+    {
+      "table_label": "V",
+      "table_number": "5",
+      "continued": true,
+      "pages": "34-37",
+      "short_name": "ZSectionDimensions",
+      "data_basis": "measured: calipers and micrometer on fabricated Z-section specimens before web crippling tests",
+      "content": "Measured cross-sectional dimensions of Z-section web crippling test specimens (EOF loading condition). Refer to Figure 11 in source for dimension definitions.",
+      "units": "all columns in inches",
+      "anomaly_flag": "source table lists the fourth Z2 specimen with duplicate label \"Z2.3-F\" (should logically follow the Z_._4-F pattern used elsewhere); preserved verbatim as printed in the source, not corrected",
+      "notes": ["n_tension flanges: \"-F\" suffix in specimen_id denotes flanges fastened to support; specimens without suffix are unfastened"],
+      "extraction_quality": "clean",
+      "columns": ["specimen_id", "t_in", "B1 (in)", "B2_in", "D1_in", "D2_in", "D3_in", "R_in", "N_in", "L_in"],
+      "column_definitions": [
+        "specimen_id = test specimen label; -F suffix means flanges fastened to the support",
+        "t_in = base metal thickness of the Z-section, inches",
+        "B1 (in) = width of the top (loaded) flange, inches (Fig. 11)",
+        "B2_in = width of the bottom flange, inches (Fig. 11)",
+        "D1_in = overall depth of the web, inches (Fig. 11)",
+        "D2_in = top flange stiffening lip length, inches (Fig. 11)",
+        "D3_in = bottom flange stiffening lip length, inches (Fig. 11)",
+        "R_in = inside bend radius, inches",
+        "N_in = bearing length of the loading plate, inches",
+        "L_in = span length between supports, inches"
+      ],
+      "rows": [
+        ["Z1.1", "0.061", "1.656", "1.750", "6.469", "0.406", "0.406", "0.250", "2.625", "30.000"],
+        ["Z1.2", "0.061", "1.625", "1.719", "6.453", "0.438", "0.438", "0.250", "2.625", "30.000"],
+        ["Z2.3-F", "0.083", "1.656", "1.719", "6.469", "0.406", "0.438", "0.250", "2.625", "30.000"],
+        ["Z2.3-F", "0.083", "1.688", "1.719", "6.469", "0.469", "0.469", "0.250", "2.625", "30.000"]
+      ]
+    },
+    {
+      "table_label": "6",
+      "table_number": "6",
+      "continued": false,
+      "pages": "40",
+      "short_name": "BadTable",
+      "data_basis": "measured: load cell during test",
+      "content": "A table with a broken row.",
+      "units": "see column headers",
+      "anomaly_flag": null,
+      "notes": [],
+      "extraction_quality": "reconstructed",
+      "columns": ["specimen_id", "p_test_kip"],
+      "column_definitions": ["specimen_id = specimen label", "p_test_kip = failure load, kips"],
+      "rows": [["A1", "12.3"], ["A2"]]
+    }
+  ]
+}

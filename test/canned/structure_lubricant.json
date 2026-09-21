@@ -1,0 +1,61 @@
+{
+  "title": "Lubricant Task Group Final Report",
+  "subtitle": "Steel Coalition Lubricant Task Group — Final Report · May 14, 2002",
+  "organization": "AISI · MBMA · MCA · NCCA · SDI · SJI",
+  "citation": "Steel Coalition (2002), Lubricant Task Group Final Report",
+  "background": {
+    "heading": "BACKGROUND · Sec. 1",
+    "body": "OSHA Subpart R rulemaking targets slip-and-fall injuries in steel erection; Sotter (1998) identifies jobsite lubricants on deck/roofing as a slipping hazard — Task Group formed to reduce or eliminate lubricants on as-delivered product."
+  },
+  "research_program": {
+    "heading": "RESEARCH PROGRAM · Sec. 2",
+    "branches": [
+      {"title": "Evaporation Studies", "subtitle": null,
+       "bullets": ["Sunderman Labs, 19 lubricants", "Weight loss vs. time", "46–100°F, humidity", "% volatiles, IR, X-ray", "Residue solubility"],
+       "finding": "Airflow dominates rate"},
+      {"title": "Industry Survey", "subtitle": null,
+       "bullets": ["26 member companies", "42% already order dry", "92% use highly evaporative compounds", "~3.5 mo. median to storage problems"],
+       "finding": "Dry ordering is viable"},
+      {"title": "Stack Tests", "subtitle": "(Storage Stain)",
+       "bullets": ["6 lubricants × 3 substrates", "12-week hot/humid stacks", "Only SLS-54 (Grp C) resists white rust", "Chem treatment ≈ 10× more stain resistance"],
+       "finding": "Bare coils need Grp C"},
+      {"title": "Forced Air Tests", "subtitle": null,
+       "bullets": ["Fans over roll-forming line (Wheeling, KS)", "Grp A dries w/o fans", "Grp B helped by fans", "Grp C/D unaffected"],
+       "finding": "Fans help only Grp B"},
+      {"title": "Forming Tests", "subtitle": null,
+       "bullets": ["50-ft runs: G90 HDG & AZ55 Galvalume", "All 6 lubricants stop pick-off & marking", "No lubricant → galling"],
+       "finding": "Lubrication is necessary"}
+    ]
+  },
+  "key_output": {
+    "heading": "KEY OUTPUT: FIVE LUBRICANT FAMILIES",
+    "items": [
+      {"label": "Group A", "text": "100% volatile organic solvents; no residue; evaporate in 2–15 min"},
+      {"label": "Group B", "text": ">95% volatile solvents + <5% lubricity additives; trace residue, hard to detect"},
+      {"label": "Group C", "text": "partially volatile \"slushing/vanishing oils\" with rust inhibitors; oily residue remains"},
+      {"label": "Group D", "text": "water-soluble, oil-free; small residue that re-dissolves when wetted"},
+      {"label": "Group E", "text": "oil-in-water emulsion with inhibitor; small oily residue, re-emulsifies"}
+    ]
+  },
+  "synopsis": {
+    "heading": "SYNOPSIS OF EVALUATIONS · Sec. 3",
+    "body": "Lubrication is unavoidable for bare metallic-coated sheet, but low/no-residue forming is feasible; \"vanishing oil\" terminology is misleading and inconsistent; storage-stain protection needs either chemical passivation or Group C oils; acrylic-coated sheet forms dry without lubricant."
+  },
+  "recommendations": [
+    {"heading": "GENERAL RECOMMENDATIONS · Sec. 4",
+     "groups": [
+       {"label": null, "bullets": ["Each manufacturer sets its own parameters; safety/environmental compliance is local",
+                                   "Prefer highly evaporative (>95% volatile) forming lubricants where possible",
+                                   "Retire the term \"vanishing oil\" — use \"Evaporative Compound\" vs. \"Corrosion Inhibiting Lubricant\""]}
+     ]},
+    {"heading": "SPECIFIC RECOMMENDATIONS · Sec. 5",
+     "groups": [
+       {"label": "Roofing panels:", "bullets": ["Acrylic-coated or dry chem-treated coils first; Group C only discretely, low-slope + labels", "Painted roofing: normally no lubricant"]},
+       {"label": "Deck products:", "bullets": ["Order dry / painted / oil-free coils when possible", "In plant: highly evaporative rolling lubricants, controlled application; none on painted product"]}
+     ]}
+  ],
+  "outcome": {
+    "heading": "OUTCOME",
+    "body": "Industry evaluates recommendations in-plant for two years, then final recommendations go to OSHA; Coalition monitors and shares findings."
+  }
+}
